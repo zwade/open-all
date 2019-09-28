@@ -1,6 +1,6 @@
 {
   "name": "open-all",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A tool to emulate scheme dependent file opening. This should not be used in production, but is instead intended to be used as a learning tool for SSRF vulnerabilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
