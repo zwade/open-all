@@ -30,7 +30,7 @@ export default async function open(uri: URI, options: Options = { }): Promise<Bu
             if (options.disableHTTP) {
                 throw new Error("[https?] urls are not allowed");
             }
-            let result = await fetch(uri.render());
+            let result = await fetch(new URL(uri.render()));
             return result.buffer();
         }
     }
