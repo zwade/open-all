@@ -10,6 +10,11 @@
     "ftp": "^0.3.10",
     "node-fetch": "^2.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zwade/open-all.git"
+  },
+  "homepage": "https://github.com/zwade/open-all",
   "devDependencies": {
     "@types/fs-extra": "^8.0.0",
     "@types/ftp": "^0.3.29",
